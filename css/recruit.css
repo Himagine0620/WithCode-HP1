@@ -1,0 +1,266 @@
+.recruit-top {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.recruit-top ul {
+  display: inline-flex;
+  padding: 50px 0;
+}
+
+.recruit-top li {
+  text-align: center;
+  padding: 50px;
+}
+
+.recruit-top li a {
+  color: #555;
+}
+
+.recruit-top li a:hover {
+  color: #fff;
+}
+
+.recruit-top li small {
+  color: #00ead0;
+}
+
+#recruit-list1,#recruit-list2,#recruit-list3 {
+  display: inline-block;
+}
+
+.recruit-list {
+  width: 100%;
+}
+
+.recruit-list h1 {
+  font-size: 30px;
+  font-weight: normal;
+  color: #fff;
+  line-height: 0.8;
+  padding-bottom: 7%;
+}
+
+.recruit-list h1 small {
+  font-size: 12px;
+  color: #00ead0;
+}
+
+.recruit-list h2 {
+  font-size: 20px;
+  color: #fff;
+  font-weight: normal;
+  padding-bottom: 7%;
+}
+
+.recruit-list p {
+  width: 80%;
+  font-size: 12px;
+  color: #fff;
+  letter-spacing: 3px;
+  line-height: 2.6;
+  padding-top: 60px;
+}
+
+.recruit-item1 {
+  width: 40%;
+  display: inline-block;
+  position: relative;
+  z-index: 2;
+  overflow: hidden;
+}
+
+.recruit-item2 {
+  width: 50%;
+  float: right;
+  margin-top: 10%;
+  position: relative;
+  z-index: 2;
+}
+
+.recruit-item1-reverse {
+  width: 40%;
+  display: inline-block;
+  position: relative;
+  z-index: 2;
+  float: right;
+  overflow: hidden;
+}
+
+.recruit-item2-reverse {
+  width: 50%;
+  display: inline-block;
+  float: left;
+  margin-top: 10%;
+  position: relative;
+  z-index: 2;
+  margin-left: 10%;
+}
+
+.recruit-bg {
+  background: #333;
+  width: 85%;
+  height: 600px;
+  float: right;
+  position: relative;
+  bottom: 200px;
+  z-index: 0;
+}
+
+.recruit-element {
+  padding: 30% 0 5%;
+}
+
+.recruit-element p {
+  font-size: 150px;
+  color: #555;
+  white-space: nowrap;
+  overflow: hidden;
+  float: right;
+}
+
+.intern {
+  display: inline-block;
+}
+
+.intern h1 {
+  font-size: 40px;
+  text-align: center;
+  line-height: 1;
+  margin-bottom: 10%;
+}
+
+.intern h1 span {
+  color: #00ead0;
+}
+
+.intern h1 small {
+  font-size: 20px;
+}
+
+.member {
+  display: flex;
+  width: 100%;
+}
+
+.member li {
+  display: inline-flex;
+  align-items: flex-end;
+  width: 25%;
+  height: 540px;
+}
+
+.member .member1 {
+  background: url(../img/rec-mem.jpg) center center no-repeat;
+  background-size: cover;
+}
+
+.member-info {
+  position: relative;
+  width: 100%;
+  padding: 35px 45px;
+  background-color: rgba(17, 17, 17, 0.6);
+  color: #fff;
+  overflow: hidden;
+}
+
+.member-name p {
+  font-size: 25px;
+  line-height: 1;
+  font-weight: normal;
+}
+
+.member-name p small {
+  font-size: 12px;
+  font-weight: normal;
+}
+
+.member-department {
+  padding-top: 8px;
+}
+
+.intern-intro {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin-bottom: 80px;
+  padding: 150px 0;
+  margin: 0 auto;
+}
+
+.intro-txt {
+  width: 45%;
+  padding: 0 100px 50px 100px;
+}
+
+.intro-txt h2 {
+  font-size: 30px;
+  line-height: 1;
+  color: #fff;
+  margin-bottom: 40px;
+}
+
+.intro-txt h2 small {
+  font-size: 15px;
+  color: #00ead0;
+}
+
+.intro-descript {
+  font-size: 13px;
+  letter-spacing: 5px;
+  line-height: 2.5;
+  color: #fff;
+}
+
+.discussion-talk {
+  margin-bottom: 150px;
+  padding: 100px 100px 150px;
+  background-color: #333;
+}
+
+.question-ttl {
+  font-size: 25px;
+  line-height: 1.5;
+  padding-bottom: 10px;
+}
+
+.question-ttl p span {
+  font-weight: bold;
+  font-size: 40px;
+  padding-right: 20px;
+ color: #00ead0;
+}
+
+.question-list {
+  padding: 100px;
+  background-color: #222;
+}
+
+.question-list li {
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.question-member {
+  margin-right: 60px;
+}
+
+.question-member img {
+  width: 120px;
+  height: 120px;
+  border-radius: 100px;
+}
+
+.question-member p {
+  margin-top: 8px;
+  text-align: center;
+}
+
+.question-txt {
+  width: 80%;
+  padding-top: 10px;
+  line-height: 2.5;
+}
